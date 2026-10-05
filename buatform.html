@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Input Lengkap</title>
+</head>
+<body>
+    <h2>Form Pendaftaran Lengkap</h2>
+    <form action="" method="get">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass"><br><br>
+
+        <label for="alamat">Alamat Lengkap:</label><br>
+        <textarea id="alamat" name="alamat" rows="4" cols="30">Masukkan alamat Anda di sini...</textarea><br><br>
+
+        <label for="negara">Negara Asal:</label><br>
+        <select id="negara" name="negara" size="1">
+            <option value="ID" selected>Indonesia</option>
+            <option value="MY">Malaysia</option>
+            <option value="SG">Singapura</option>
+        </select><br><br>
+
+        <label>Kendaraan yang dimiliki:</label><br>
+        <input type="checkbox" id="motor" name="vehicle" value="Bike">
+        <label for="motor"> Sepeda Motor</label><br>
+        <input type="checkbox" id="mobil" name="vehicle" value="Car">
+        <label for="mobil"> Mobil</label><br>
+        <input type="checkbox" id="pesawat" name="vehicle" value="Plane">
+        <label for="pesawat"> Pesawat Terbang</label><br><br>
+
+        <input type="submit" value="Kirim Data">
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
